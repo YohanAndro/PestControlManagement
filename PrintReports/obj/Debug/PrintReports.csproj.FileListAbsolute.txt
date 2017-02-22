@@ -1,0 +1,15 @@
+E:\PestConstrolSoftware\PestControlManagement\PrintReports\bin\Debug\PrintReports.dll
+E:\PestConstrolSoftware\PestControlManagement\PrintReports\bin\Debug\PrintReports.pdb
+E:\PestConstrolSoftware\PestControlManagement\PrintReports\obj\Debug\PrintReports.dll
+E:\PestConstrolSoftware\PestControlManagement\PrintReports\obj\Debug\PrintReports.pdb
+E:\PestConstrolSoftware\PestControlManagement\PrintReports\obj\Debug\PrintReports.csprojResolveAssemblyReference.cache
+E:\PestControlManagement\PrintReports\bin\Debug\PrintReports.dll
+E:\PestControlManagement\PrintReports\bin\Debug\PrintReports.pdb
+E:\PestControlManagement\PrintReports\obj\Debug\PrintReports.dll
+E:\PestControlManagement\PrintReports\obj\Debug\PrintReports.pdb
+E:\PestControlManagement\PrintReports\obj\Debug\PrintReports.csprojResolveAssemblyReference.cache
+D:\PestControlManagement\PrintReports\bin\Debug\PrintReports.dll
+D:\PestControlManagement\PrintReports\bin\Debug\PrintReports.pdb
+D:\PestControlManagement\PrintReports\obj\Debug\PrintReports.dll
+D:\PestControlManagement\PrintReports\obj\Debug\PrintReports.pdb
+D:\PestControlManagement\PrintReports\obj\Debug\PrintReports.csprojResolveAssemblyReference.cache
