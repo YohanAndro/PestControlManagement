@@ -106,7 +106,7 @@
             this.metroTile4.Size = new System.Drawing.Size(105, 74);
             this.metroTile4.Style = MetroFramework.MetroColorStyle.Brown;
             this.metroTile4.TabIndex = 13;
-            this.metroTile4.Text = "metroTile4";
+            this.metroTile4.Text = "Reports";
             this.metroTile4.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
             this.metroTile4.UseMnemonic = false;
             this.metroTile4.UseSelectable = true;

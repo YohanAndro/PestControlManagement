@@ -17,3 +17,8 @@ D:\PestControlManagement\Models\bin\Debug\Models.pdb
 D:\PestControlManagement\Models\obj\Debug\Models.dll
 D:\PestControlManagement\Models\obj\Debug\Models.pdb
 D:\PestControlManagement\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+E:\GitHub\Models\bin\Debug\Models.dll
+E:\GitHub\Models\bin\Debug\Models.pdb
+E:\GitHub\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+E:\GitHub\Models\obj\Debug\Models.dll
+E:\GitHub\Models\obj\Debug\Models.pdb

@@ -13,3 +13,8 @@ D:\PestControlManagement\PrintReports\bin\Debug\PrintReports.pdb
 D:\PestControlManagement\PrintReports\obj\Debug\PrintReports.dll
 D:\PestControlManagement\PrintReports\obj\Debug\PrintReports.pdb
 D:\PestControlManagement\PrintReports\obj\Debug\PrintReports.csprojResolveAssemblyReference.cache
+E:\GitHub\PrintReports\bin\Debug\PrintReports.dll
+E:\GitHub\PrintReports\bin\Debug\PrintReports.pdb
+E:\GitHub\PrintReports\obj\Debug\PrintReports.csprojResolveAssemblyReference.cache
+E:\GitHub\PrintReports\obj\Debug\PrintReports.dll
+E:\GitHub\PrintReports\obj\Debug\PrintReports.pdb
