@@ -61,6 +61,21 @@ namespace PestControlManagement
 
         }
 
+        private void mtReports_Click(object sender, EventArgs e)
+        {
+            if (!MainGrid.Instance.MContainer.Controls.ContainsKey("ucCustomerReport"))
+            {
+                ucCustomerReport ucc = new ucCustomerReport();
+                ucc.Dock = DockStyle.Fill;
+                MainGrid.Instance.MContainer.Controls.Add(ucc);
+
+            }
+            MainGrid.Instance.MContainer.Controls["ucCustomerReport"].BringToFront();
+
+            MainGrid.Instance.MBack.Visible = true;
+
+        }
+
 
     }
 }

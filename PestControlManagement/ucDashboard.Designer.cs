@@ -32,7 +32,7 @@
             this.metroTile7 = new MetroFramework.Controls.MetroTile();
             this.metroTile6 = new MetroFramework.Controls.MetroTile();
             this.metroTile5 = new MetroFramework.Controls.MetroTile();
-            this.metroTile4 = new MetroFramework.Controls.MetroTile();
+            this.mtReports = new MetroFramework.Controls.MetroTile();
             this.mtCustomerTchnician = new MetroFramework.Controls.MetroTile();
             this.mtTechnicians = new MetroFramework.Controls.MetroTile();
             this.mtCustomer = new MetroFramework.Controls.MetroTile();
@@ -98,20 +98,21 @@
             this.metroTile5.UseStyleColors = true;
             this.metroTile5.UseTileImage = true;
             // 
-            // metroTile4
+            // mtReports
             // 
-            this.metroTile4.ActiveControl = null;
-            this.metroTile4.Location = new System.Drawing.Point(487, 94);
-            this.metroTile4.Name = "metroTile4";
-            this.metroTile4.Size = new System.Drawing.Size(105, 74);
-            this.metroTile4.Style = MetroFramework.MetroColorStyle.Brown;
-            this.metroTile4.TabIndex = 13;
-            this.metroTile4.Text = "Reports";
-            this.metroTile4.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile4.UseMnemonic = false;
-            this.metroTile4.UseSelectable = true;
-            this.metroTile4.UseStyleColors = true;
-            this.metroTile4.UseTileImage = true;
+            this.mtReports.ActiveControl = null;
+            this.mtReports.Location = new System.Drawing.Point(487, 94);
+            this.mtReports.Name = "mtReports";
+            this.mtReports.Size = new System.Drawing.Size(105, 74);
+            this.mtReports.Style = MetroFramework.MetroColorStyle.Brown;
+            this.mtReports.TabIndex = 13;
+            this.mtReports.Text = "Reports";
+            this.mtReports.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.mtReports.UseMnemonic = false;
+            this.mtReports.UseSelectable = true;
+            this.mtReports.UseStyleColors = true;
+            this.mtReports.UseTileImage = true;
+            this.mtReports.Click += new System.EventHandler(this.mtReports_Click);
             // 
             // mtCustomerTchnician
             // 
@@ -169,7 +170,7 @@
             this.Controls.Add(this.metroTile7);
             this.Controls.Add(this.metroTile6);
             this.Controls.Add(this.metroTile5);
-            this.Controls.Add(this.metroTile4);
+            this.Controls.Add(this.mtReports);
             this.Controls.Add(this.mtCustomerTchnician);
             this.Controls.Add(this.mtTechnicians);
             this.Controls.Add(this.mtCustomer);
@@ -186,7 +187,7 @@
         private MetroFramework.Controls.MetroTile metroTile7;
         private MetroFramework.Controls.MetroTile metroTile6;
         private MetroFramework.Controls.MetroTile metroTile5;
-        private MetroFramework.Controls.MetroTile metroTile4;
+        private MetroFramework.Controls.MetroTile mtReports;
         private MetroFramework.Controls.MetroTile mtCustomerTchnician;
         private MetroFramework.Controls.MetroTile mtTechnicians;
         private MetroFramework.Controls.MetroTile mtCustomer;
