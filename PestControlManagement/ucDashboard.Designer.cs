@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.metroToggle1 = new MetroFramework.Controls.MetroToggle();
-            this.metroProgressBar1 = new MetroFramework.Controls.MetroProgressBar();
-            this.metroProgressSpinner2 = new MetroFramework.Controls.MetroProgressSpinner();
             this.metroTile2 = new MetroFramework.Controls.MetroTile();
             this.metroTile1 = new MetroFramework.Controls.MetroTile();
             this.metroTile8 = new MetroFramework.Controls.MetroTile();
@@ -40,39 +37,6 @@
             this.mtTechnicians = new MetroFramework.Controls.MetroTile();
             this.mtCustomer = new MetroFramework.Controls.MetroTile();
             this.SuspendLayout();
-            // 
-            // metroToggle1
-            // 
-            this.metroToggle1.AutoSize = true;
-            this.metroToggle1.Location = new System.Drawing.Point(596, 487);
-            this.metroToggle1.Name = "metroToggle1";
-            this.metroToggle1.Size = new System.Drawing.Size(80, 17);
-            this.metroToggle1.TabIndex = 21;
-            this.metroToggle1.Text = "Off";
-            this.metroToggle1.UseSelectable = true;
-            // 
-            // metroProgressBar1
-            // 
-            this.metroProgressBar1.Location = new System.Drawing.Point(394, 487);
-            this.metroProgressBar1.Name = "metroProgressBar1";
-            this.metroProgressBar1.ProgressBarStyle = System.Windows.Forms.ProgressBarStyle.Marquee;
-            this.metroProgressBar1.RightToLeftLayout = true;
-            this.metroProgressBar1.Size = new System.Drawing.Size(100, 10);
-            this.metroProgressBar1.Style = MetroFramework.MetroColorStyle.Orange;
-            this.metroProgressBar1.TabIndex = 23;
-            this.metroProgressBar1.Value = 40;
-            // 
-            // metroProgressSpinner2
-            // 
-            this.metroProgressSpinner2.Location = new System.Drawing.Point(253, 487);
-            this.metroProgressSpinner2.Maximum = 100;
-            this.metroProgressSpinner2.Name = "metroProgressSpinner2";
-            this.metroProgressSpinner2.Size = new System.Drawing.Size(26, 26);
-            this.metroProgressSpinner2.Style = MetroFramework.MetroColorStyle.Lime;
-            this.metroProgressSpinner2.TabIndex = 25;
-            this.metroProgressSpinner2.UseCustomForeColor = true;
-            this.metroProgressSpinner2.UseSelectable = true;
-            this.metroProgressSpinner2.Value = 25;
             // 
             // metroTile2
             // 
@@ -225,9 +189,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.metroProgressSpinner2);
-            this.Controls.Add(this.metroProgressBar1);
-            this.Controls.Add(this.metroToggle1);
             this.Controls.Add(this.metroTile2);
             this.Controls.Add(this.metroTile1);
             this.Controls.Add(this.metroTile8);
@@ -240,7 +201,6 @@
             this.Size = new System.Drawing.Size(924, 561);
             this.UseStyleColors = true;
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -254,8 +214,5 @@
         private MetroFramework.Controls.MetroTile metroTile8;
         private MetroFramework.Controls.MetroTile metroTile1;
         private MetroFramework.Controls.MetroTile metroTile2;
-        private MetroFramework.Controls.MetroToggle metroToggle1;
-        private MetroFramework.Controls.MetroProgressBar metroProgressBar1;
-        private MetroFramework.Controls.MetroProgressSpinner metroProgressSpinner2;
     }
 }
