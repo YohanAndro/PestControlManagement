@@ -28,27 +28,66 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
+            this.mtInvoice = new MetroFramework.Controls.MetroTile();
+            this.mtWorkOrders = new MetroFramework.Controls.MetroTile();
+            this.mtQuotations = new MetroFramework.Controls.MetroTile();
             this.SuspendLayout();
             // 
-            // crystalReportViewer1
+            // mtInvoice
             // 
-            this.crystalReportViewer1.ActiveViewIndex = -1;
-            this.crystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.crystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.crystalReportViewer1.Location = new System.Drawing.Point(0, 0);
-            this.crystalReportViewer1.Name = "crystalReportViewer1";
-            this.crystalReportViewer1.Size = new System.Drawing.Size(631, 391);
-            this.crystalReportViewer1.TabIndex = 0;
+            this.mtInvoice.ActiveControl = null;
+            this.mtInvoice.Location = new System.Drawing.Point(251, 192);
+            this.mtInvoice.Name = "mtInvoice";
+            this.mtInvoice.Size = new System.Drawing.Size(124, 50);
+            this.mtInvoice.Style = MetroFramework.MetroColorStyle.Lime;
+            this.mtInvoice.TabIndex = 14;
+            this.mtInvoice.Text = "Invoice";
+            this.mtInvoice.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.mtInvoice.UseMnemonic = false;
+            this.mtInvoice.UseSelectable = true;
+            this.mtInvoice.UseStyleColors = true;
+            this.mtInvoice.UseTileImage = true;
+            this.mtInvoice.Click += new System.EventHandler(this.mtInvoice_Click);
+            // 
+            // mtWorkOrders
+            // 
+            this.mtWorkOrders.ActiveControl = null;
+            this.mtWorkOrders.Location = new System.Drawing.Point(386, 192);
+            this.mtWorkOrders.Name = "mtWorkOrders";
+            this.mtWorkOrders.Size = new System.Drawing.Size(124, 50);
+            this.mtWorkOrders.Style = MetroFramework.MetroColorStyle.Lime;
+            this.mtWorkOrders.TabIndex = 15;
+            this.mtWorkOrders.Text = "Work Orders";
+            this.mtWorkOrders.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.mtWorkOrders.UseMnemonic = false;
+            this.mtWorkOrders.UseSelectable = true;
+            this.mtWorkOrders.UseStyleColors = true;
+            this.mtWorkOrders.UseTileImage = true;
+            // 
+            // mtQuotations
+            // 
+            this.mtQuotations.ActiveControl = null;
+            this.mtQuotations.Location = new System.Drawing.Point(523, 192);
+            this.mtQuotations.Name = "mtQuotations";
+            this.mtQuotations.Size = new System.Drawing.Size(124, 50);
+            this.mtQuotations.Style = MetroFramework.MetroColorStyle.Lime;
+            this.mtQuotations.TabIndex = 16;
+            this.mtQuotations.Text = "Quotations";
+            this.mtQuotations.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.mtQuotations.UseMnemonic = false;
+            this.mtQuotations.UseSelectable = true;
+            this.mtQuotations.UseStyleColors = true;
+            this.mtQuotations.UseTileImage = true;
             // 
             // ucCustomerReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.crystalReportViewer1);
+            this.Controls.Add(this.mtQuotations);
+            this.Controls.Add(this.mtWorkOrders);
+            this.Controls.Add(this.mtInvoice);
             this.Name = "ucCustomerReport";
-            this.Size = new System.Drawing.Size(631, 391);
+            this.Size = new System.Drawing.Size(898, 435);
             this.Load += new System.EventHandler(this.ucCustomerReport_Load);
             this.ResumeLayout(false);
 
@@ -56,6 +95,9 @@
 
         #endregion
 
-        private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
+        private MetroFramework.Controls.MetroTile mtInvoice;
+        private MetroFramework.Controls.MetroTile mtWorkOrders;
+        private MetroFramework.Controls.MetroTile mtQuotations;
+
     }
 }

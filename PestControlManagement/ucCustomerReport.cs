@@ -17,8 +17,8 @@ using PrintReports;
 namespace PestControlManagement
 {
     public partial class ucCustomerReport : MetroFramework.Controls.MetroUserControl
-    {
-        CustomerReport cryp = new CustomerReport();
+    {       
+        
         public ucCustomerReport()
         {
             InitializeComponent();
@@ -26,11 +26,16 @@ namespace PestControlManagement
 
         private void ucCustomerReport_Load(object sender, EventArgs e)
         {            
-          using(PesticidesControlEntity pce=new PesticidesControlEntity())
-          {
-              cryp.SetDataSource(pce.Customers.ToList());
-              crystalReportViewer1.ReportSource = cryp;
-          }
+         
         }
+
+
+        private void mtInvoice_Click(object sender, EventArgs e)
+        {
+            InvoiceForm iform = new InvoiceForm();
+            iform.ShowDialog();
+
+        }
+       
     }
 }

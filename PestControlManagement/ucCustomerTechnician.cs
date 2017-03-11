@@ -91,6 +91,9 @@ namespace PestControlManagement
         {
             using (PesticidesControlEntity pe = new PesticidesControlEntity())
             {
+                //mComboBoxCustomerType.DataSource = pe.CustmerTeches.ToList();
+                //mComboBoxCustomerType.DisplayMember = "CustomerName";
+                //mComboBoxCustomerType.ValueMember="CustomerID";
                 custmerTechBindingSource.DataSource = pe.CustmerTeches.ToList();
             }
         }

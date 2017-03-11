@@ -34,23 +34,24 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.metroGrid1 = new MetroFramework.Controls.MetroGrid();
+            this.mbtnDelete = new MetroFramework.Controls.MetroButton();
+            this.mbtnUpdate = new MetroFramework.Controls.MetroButton();
+            this.mbtnAdd = new MetroFramework.Controls.MetroButton();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.technicianBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.technicianIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.firsNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lastNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.mobileDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.emailIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.createdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.technicianBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.mbtnDelete = new MetroFramework.Controls.MetroButton();
-            this.mbtnUpdate = new MetroFramework.Controls.MetroButton();
-            this.mbtnAdd = new MetroFramework.Controls.MetroButton();
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.technicianBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // metroGrid1
             // 
+            this.metroGrid1.AllowUserToDeleteRows = false;
             this.metroGrid1.AllowUserToResizeRows = false;
             this.metroGrid1.AutoGenerateColumns = false;
             this.metroGrid1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
@@ -85,7 +86,7 @@
             this.metroGrid1.EnableHeadersVisualStyles = false;
             this.metroGrid1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.metroGrid1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.metroGrid1.Location = new System.Drawing.Point(115, 111);
+            this.metroGrid1.Location = new System.Drawing.Point(81, 111);
             this.metroGrid1.Name = "metroGrid1";
             this.metroGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -98,55 +99,10 @@
             this.metroGrid1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.metroGrid1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.metroGrid1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.metroGrid1.Size = new System.Drawing.Size(645, 244);
+            this.metroGrid1.Size = new System.Drawing.Size(706, 244);
             this.metroGrid1.Style = MetroFramework.MetroColorStyle.Purple;
             this.metroGrid1.TabIndex = 10;
             this.metroGrid1.UseStyleColors = true;
-            // 
-            // technicianIDDataGridViewTextBoxColumn
-            // 
-            this.technicianIDDataGridViewTextBoxColumn.DataPropertyName = "TechnicianID";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.technicianIDDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle2;
-            this.technicianIDDataGridViewTextBoxColumn.HeaderText = "TechnicianID";
-            this.technicianIDDataGridViewTextBoxColumn.Name = "technicianIDDataGridViewTextBoxColumn";
-            this.technicianIDDataGridViewTextBoxColumn.Width = 80;
-            // 
-            // firsNameDataGridViewTextBoxColumn
-            // 
-            this.firsNameDataGridViewTextBoxColumn.DataPropertyName = "FirsName";
-            this.firsNameDataGridViewTextBoxColumn.HeaderText = "FirsName";
-            this.firsNameDataGridViewTextBoxColumn.Name = "firsNameDataGridViewTextBoxColumn";
-            // 
-            // lastNameDataGridViewTextBoxColumn
-            // 
-            this.lastNameDataGridViewTextBoxColumn.DataPropertyName = "LastName";
-            this.lastNameDataGridViewTextBoxColumn.HeaderText = "LastName";
-            this.lastNameDataGridViewTextBoxColumn.Name = "lastNameDataGridViewTextBoxColumn";
-            // 
-            // mobileDataGridViewTextBoxColumn
-            // 
-            this.mobileDataGridViewTextBoxColumn.DataPropertyName = "Mobile";
-            this.mobileDataGridViewTextBoxColumn.HeaderText = "Mobile";
-            this.mobileDataGridViewTextBoxColumn.Name = "mobileDataGridViewTextBoxColumn";
-            // 
-            // emailIdDataGridViewTextBoxColumn
-            // 
-            this.emailIdDataGridViewTextBoxColumn.DataPropertyName = "EmailId";
-            this.emailIdDataGridViewTextBoxColumn.HeaderText = "EmailId";
-            this.emailIdDataGridViewTextBoxColumn.Name = "emailIdDataGridViewTextBoxColumn";
-            this.emailIdDataGridViewTextBoxColumn.Width = 140;
-            // 
-            // createdDataGridViewTextBoxColumn
-            // 
-            this.createdDataGridViewTextBoxColumn.DataPropertyName = "Created";
-            this.createdDataGridViewTextBoxColumn.HeaderText = "Created";
-            this.createdDataGridViewTextBoxColumn.Name = "createdDataGridViewTextBoxColumn";
-            this.createdDataGridViewTextBoxColumn.Width = 140;
-            // 
-            // technicianBindingSource
-            // 
-            this.technicianBindingSource.DataSource = typeof(PestControlManagement.Technician);
             // 
             // mbtnDelete
             // 
@@ -189,6 +145,56 @@
             this.metroLabel1.TabIndex = 19;
             this.metroLabel1.Text = "Technicians Details";
             this.metroLabel1.UseStyleColors = true;
+            // 
+            // technicianBindingSource
+            // 
+            this.technicianBindingSource.DataSource = typeof(PestControlManagement.Technician);
+            // 
+            // technicianIDDataGridViewTextBoxColumn
+            // 
+            this.technicianIDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.technicianIDDataGridViewTextBoxColumn.DataPropertyName = "TechnicianID";
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.technicianIDDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle2;
+            this.technicianIDDataGridViewTextBoxColumn.HeaderText = "TechnicianID";
+            this.technicianIDDataGridViewTextBoxColumn.Name = "technicianIDDataGridViewTextBoxColumn";
+            this.technicianIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // firsNameDataGridViewTextBoxColumn
+            // 
+            this.firsNameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.firsNameDataGridViewTextBoxColumn.DataPropertyName = "FirsName";
+            this.firsNameDataGridViewTextBoxColumn.HeaderText = "FirsName";
+            this.firsNameDataGridViewTextBoxColumn.Name = "firsNameDataGridViewTextBoxColumn";
+            // 
+            // lastNameDataGridViewTextBoxColumn
+            // 
+            this.lastNameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.lastNameDataGridViewTextBoxColumn.DataPropertyName = "LastName";
+            this.lastNameDataGridViewTextBoxColumn.HeaderText = "LastName";
+            this.lastNameDataGridViewTextBoxColumn.Name = "lastNameDataGridViewTextBoxColumn";
+            // 
+            // mobileDataGridViewTextBoxColumn
+            // 
+            this.mobileDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.mobileDataGridViewTextBoxColumn.DataPropertyName = "Mobile";
+            this.mobileDataGridViewTextBoxColumn.HeaderText = "Mobile";
+            this.mobileDataGridViewTextBoxColumn.Name = "mobileDataGridViewTextBoxColumn";
+            // 
+            // emailIdDataGridViewTextBoxColumn
+            // 
+            this.emailIdDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.emailIdDataGridViewTextBoxColumn.DataPropertyName = "EmailId";
+            this.emailIdDataGridViewTextBoxColumn.HeaderText = "EmailId";
+            this.emailIdDataGridViewTextBoxColumn.Name = "emailIdDataGridViewTextBoxColumn";
+            // 
+            // createdDataGridViewTextBoxColumn
+            // 
+            this.createdDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.createdDataGridViewTextBoxColumn.DataPropertyName = "Created";
+            this.createdDataGridViewTextBoxColumn.HeaderText = "Created";
+            this.createdDataGridViewTextBoxColumn.Name = "createdDataGridViewTextBoxColumn";
+            this.createdDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // ucTechnicians
             // 

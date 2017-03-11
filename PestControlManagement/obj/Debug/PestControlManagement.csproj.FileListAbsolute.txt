@@ -110,8 +110,6 @@ D:\PestControlManagement\PestControlManagement\obj\Debug\PestControlManagement.u
 D:\PestControlManagement\PestControlManagement\obj\Debug\PestControlManagement.ucTechnicians.resources
 D:\PestControlManagement\PestControlManagement\obj\Debug\PestControlManagement.ucCustomerTechnician.resources
 E:\GitHub\PestControlManagement\bin\Debug\PestControlManagement.exe.config
-E:\GitHub\PestControlManagement\obj\Debug\PestControlManagement.exe
-E:\GitHub\PestControlManagement\obj\Debug\PestControlManagement.pdb
 E:\GitHub\PestControlManagement\bin\Debug\PestControlManagement.exe
 E:\GitHub\PestControlManagement\bin\Debug\PestControlManagement.pdb
 E:\GitHub\PestControlManagement\bin\Debug\EntityFramework.dll
@@ -132,6 +130,7 @@ E:\GitHub\PestControlManagement\obj\Debug\PestControlManagement.AddCustomer.reso
 E:\GitHub\PestControlManagement\obj\Debug\PestControlManagement.AddTechnician.resources
 E:\GitHub\PestControlManagement\obj\Debug\PestControlManagement.ClientsForm.resources
 E:\GitHub\PestControlManagement\obj\Debug\PestControlManagement.AddCustomerTechnicianForm.resources
+E:\GitHub\PestControlManagement\obj\Debug\PestControlManagement.InvoiceForm.resources
 E:\GitHub\PestControlManagement\obj\Debug\PestControlManagement.Mail.resources
 E:\GitHub\PestControlManagement\obj\Debug\PestControlManagement.MainForm.resources
 E:\GitHub\PestControlManagement\obj\Debug\PestControlManagement.MainGrid.resources
@@ -139,8 +138,10 @@ E:\GitHub\PestControlManagement\obj\Debug\PestControlManagement.Properties.Resou
 E:\GitHub\PestControlManagement\obj\Debug\PestControlManagement.TechnicianCustomerForm.resources
 E:\GitHub\PestControlManagement\obj\Debug\PestControlManagement.TechnicianForm.resources
 E:\GitHub\PestControlManagement\obj\Debug\PestControlManagement.ucCustomer.resources
+E:\GitHub\PestControlManagement\obj\Debug\PestControlManagement.ucCustomerReport.resources
 E:\GitHub\PestControlManagement\obj\Debug\PestControlManagement.ucCustomerTechnician.resources
 E:\GitHub\PestControlManagement\obj\Debug\PestControlManagement.ucDashboard.resources
 E:\GitHub\PestControlManagement\obj\Debug\PestControlManagement.ucTechnicians.resources
 E:\GitHub\PestControlManagement\obj\Debug\PestControlManagement.csproj.GenerateResource.Cache
-E:\GitHub\PestControlManagement\obj\Debug\PestControlManagement.ucCustomerReport.resources
+E:\GitHub\PestControlManagement\obj\Debug\PestControlManagement.exe
+E:\GitHub\PestControlManagement\obj\Debug\PestControlManagement.pdb

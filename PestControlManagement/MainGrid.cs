@@ -58,5 +58,11 @@ namespace PestControlManagement
             MBack.Visible = false;
         }
 
+        private void mLinkPower_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
+
     }
 }
